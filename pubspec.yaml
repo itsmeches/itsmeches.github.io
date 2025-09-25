@@ -1,0 +1,26 @@
+name: itypekoto_tts
+description: "A new Flutter project."
+publish_to: 'none' # Remove if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^4.2.3
+  google_fonts: ^6.2.1
+  js: ^0.6.7
+  web: ^0.5.1
+  http: ^1.2.3
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
