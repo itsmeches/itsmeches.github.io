@@ -2,7 +2,6 @@
 <html>
 <head>
   <base href="/itypekoto_tts/">
-
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="I-TYPEKOTO: Web Speech-to-Text & Text-to-Speech App">
@@ -19,11 +18,12 @@
   <title>I-TYPEKOTO</title>
   <link rel="manifest" href="manifest.json">
 
-  <!-- ✅ Load our JS bridge before flutter_bootstrap.js -->
+  <!-- Custom JS -->
   <script src="speech.js"></script>
 </head>
 <body>
-  <!-- ✅ Flutter entry point -->
+  <!-- Flutter scripts -->
+  <script src="flutter.js" defer></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
